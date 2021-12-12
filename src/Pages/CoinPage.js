@@ -6,6 +6,7 @@ import { SingleCoin } from "../config/api";
 import { CryptoState } from "../CryptoContext";
 import ReactHtmlParser from "react-html-parser";
 import { numberWithCommas } from "../Components/Banner/Carousel";
+import CoinInfo from "../Components/CoinInfo";
 
 const CoinPage = () => {
   const { id } = useParams();
@@ -135,6 +136,8 @@ const CoinPage = () => {
           </span>
         </div>
       </div>
+
+      <CoinInfo coin={coin} />
     </div>
   );
 };
