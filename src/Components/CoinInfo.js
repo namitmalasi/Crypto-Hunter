@@ -87,7 +87,7 @@ const CoinInfo = ({ coin }) => {
                     label: `Price (Past ${days} Days) in ${currency}`,
                     borderColor: "#EEBC1D",
                   },
-                ],
+                ],  
               }}
               options={{ elements: { point: { radius: 1 } } }}
             />
